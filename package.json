@@ -1,0 +1,30 @@
+{
+  "name": "Filmoteka",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://Yefimkin.github.io/Filmoteka-project",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Filmoteka-project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yefimkin/Filmoteka-project"
+  },
+  "keywords": [],
+  "author": "Team 13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yefimkin/Filmoteka-project"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
